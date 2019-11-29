@@ -1,0 +1,7 @@
+# 在这里可以写开发环境和生产环境都用到的环境变量
+# base api
+VUE_APP_BASE_API = '/api'
+# 图片的前缀
+VUE_APP_IMAGE_PREFIX = '/resources/pic/'
+# 文件的前缀
+VUE_APP_FILE_PREFIX = '/resources/file/'

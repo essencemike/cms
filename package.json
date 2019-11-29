@@ -1,0 +1,33 @@
+{
+  "name": "vue-cli-plugin-cms",
+  "version": "1.0.0",
+  "description": "基于 vue-cli 的插件，用于快速生成类似 cms 的管理后台。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essencemike/vue-cli-plugin-cms.git"
+  },
+  "keywords": [
+    "vue-cli",
+    "plugin",
+    "cms"
+  ],
+  "author": "IMike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/essencemike/vue-cli-plugin-cms/issues"
+  },
+  "homepage": "https://github.com/essencemike/vue-cli-plugin-cms#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@vue/cli-test-utils": "^4.0.5"
+  },
+  "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0"
+  }
+}

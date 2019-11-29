@@ -1,0 +1,49 @@
+
+@import 'variables.less';
+
+/*---------el-scroll------------*/
+.scrollbar-wrapper {
+  + .is-horizontal {
+    display: none;
+  }
+
+  // reset element-ui transition
+  .horizontal-collapse-transition {
+    transition: 0s width ease-in-out, 0s padding-left ease-in-out, 0s padding-right ease-in-out;
+  }
+}
+
+/*--------el-menu----------------*/
+.el-menu {
+  [class^=fa] {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 24px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+/*---------el-pagination----------*/
+.pager-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+
+  .pager-total {
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #606266;
+  }
+
+  .el-pagination {
+    padding-right: 0;
+  }
+}
