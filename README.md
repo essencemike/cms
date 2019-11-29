@@ -8,6 +8,8 @@
 
 ```bash
 vue create my-app
+# 需要添加这些插件 vue-router, vuex, less, babel, typescript, eslint, unit-jest
+# 代码风格选择 eslint + airbnb
 cd my-app
 vue add cms
 ```
